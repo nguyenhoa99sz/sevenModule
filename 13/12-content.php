@@ -66,16 +66,16 @@ $url_path = str_replace('\\', '/', $url_path);
   <h1 class="oo">Related Product</h1>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="/12/images/giay1.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay2.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay3.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay4.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay5.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay6.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay7.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay8.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay9.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
-      <div class="swiper-slide"><img src="/12/images/giay10.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay1.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay2.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay3.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay4.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay5.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay6.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay7.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay8.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay9.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
+      <div class="swiper-slide"><img src="images/giay10.jpg" width="900px" height="300px"><a class="pipi"><i class="fa fa-heart"></i><br><a class="pipi1"><i class="fa fa-search-plus"></i></a></a></div>
 
     </div>
     <div class="swiper-pagination"></div>
