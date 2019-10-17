@@ -20,12 +20,17 @@
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+}
+.fakeimg img {
+  height: 100%;
 }
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
+.card img {
+  height: 100%;
 }
 .row:after {
   content: "";
@@ -43,5 +48,9 @@
   .rightcolumn {
     width: 100%;
     padding: 0;
+  }
+  .fakeimg img {
+    height: 100%;
+    width: 100%;
   }
 }

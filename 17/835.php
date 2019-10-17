@@ -28,6 +28,6 @@ $less->compileFile('less/835.less', 'css/835.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php include '../835/835-content.php'; ?>
+        <?php include $dir_block . '/835-content.php'; ?>
     </body>
 </html>
