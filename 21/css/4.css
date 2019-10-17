@@ -1,6 +1,20 @@
 .type-4 {
   font-family: "Lato", sans-serif;
 }
+.type-4 .kmkm {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.type-4 .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  width: 291px;
+}
+.type-4 .olol {
+  border: 1px solid #000;
+}
+.type-4 .form-group {
+  padding: 21px;
+}
 .type-4 .close-side {
   position: fixed;
   top: 0;
@@ -28,13 +42,13 @@
 .type-4 .sidenav a {
   padding: 8px 8px 8px 0;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 14px;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
 .type-4 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #2703c9;
 }
 .type-4 .sidenav .nav-heading {
   position: fixed;
