@@ -20,18 +20,25 @@
 .fakeimg {
   background-color: #aaa;
   width: 100%;
+<<<<<<< HEAD
 }
 .fakeimg img {
   height: 100%;
+=======
+  padding: 20px;
+>>>>>>> d8b30b30d45fc8b12d7f6ac7aa4c6722006c0556
 }
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
 .card img {
   height: 100%;
 }
+=======
+>>>>>>> d8b30b30d45fc8b12d7f6ac7aa4c6722006c0556
 .row:after {
   content: "";
   display: table;
@@ -49,8 +56,11 @@
     width: 100%;
     padding: 0;
   }
+<<<<<<< HEAD
   .fakeimg img {
     height: 100%;
     width: 100%;
   }
+=======
+>>>>>>> d8b30b30d45fc8b12d7f6ac7aa4c6722006c0556
 }
