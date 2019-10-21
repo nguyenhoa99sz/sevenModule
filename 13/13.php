@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/12.less', 'css/12.css');
+    $less->compileFile('less/13.less', 'css/13.css');
     
 ?>
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
 <head>
   
   <meta charset="utf-8">
-  <title>12</title>
+  <title>13</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -35,15 +35,15 @@
   
   <!-- Swiper JS -->
   <script src="js/swiper.min.js"></script>
-  <script src="js/12.js"></script>
+  <script src="js/13.js"></script>
   <!-- CSS -->
-  <link href="css/12.css" rel="stylesheet" type="text/css" />
+  <link href="css/13.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
 
   <!-- include content -->
-  <?php include './12-content.php'; ?>
+  <?php include './13-content.php'; ?>
   
 </body>
 </html>
