@@ -13,21 +13,21 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/835.less', 'css/835.css');
+$less->compileFile('less/17.less', 'css/17.css');
 ?>
 <html lang="en">
     <head>
-        <title>835</title>
+        <title>17</title>
         <meta charset="utf-8">
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/835.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/17.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php include $dir_block . '/835-content.php'; ?>
+        <?php include $dir_block . '/17-content.php'; ?>
     </body>
 </html>
