@@ -44,22 +44,332 @@ $url_path = str_replace('\\', '/', $url_path);
   <h1 style="text-align:center;">Product</h1>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="images/giay1.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay2.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay3.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay4.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay5.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay6.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay7.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay8.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay9.jpg" style="width:300px;height:300px;"></div>
-      <div class="swiper-slide"><img src="images/giay10.jpg" style="width:300px;height:300px;"></div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay1.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay2.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay3.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay4.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay5.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay6.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay7.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay8.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay9.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
+      <div class="swiper-slide">
+      <figure class="card card-product">
+                    <div class="img-wrap">
+                    <img src="images/giay10.jpg" style="width:300px;height:300px;">
+                        <ul class="font-awe">
+                            <li>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="hover-img">
+                        </div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Backpack double strap</a>
+                        <div class="price-wrap">
+                            <div class="wrap-swap">
+                                <span class="price-new">£12.00 - £15.00</span>
+                                <div class="select-option">
+                                    <a href="#">🛒Select Options</a>
+                                </div>
+                            </div>
+                            <!-- <del class="price-old">$1980</del> -->
+                        </div>
+                    </figcaption>
+                </figure>
+    </div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <br>
+    <br>
+    <div class="swiper-button-next" style="top: 147px;right: -1px;"></div>
+    <div class="swiper-button-prev" style="top: 147px;right: -1px;"></div>
   </div>
 
   <!-- Swiper JS -->
