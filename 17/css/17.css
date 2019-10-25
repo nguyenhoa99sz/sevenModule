@@ -17,20 +17,14 @@
   width: 25%;
   padding-left: 20px;
 }
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-}
-.fakeimg img {
-  height: 100%;
-}
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
-.card img {
-  height: 100%;
+.card .theimg {
+  width: 50px;
+  height: 50px;
 }
 .row:after {
   content: "";
@@ -53,4 +47,45 @@
     height: 100%;
     width: 100%;
   }
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.theread {
+  border-bottom: 1px solid #8f7272;
+  color: #333;
+}
+.theb {
+  color: #333;
+}
+.img-hover-zoom--brightness {
+  position: relative;
+}
+.img-hover-zoom--brightness img {
+  transition: transform 1s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+.img-hover-zoom--brightness img:hover {
+  filter: brightness(100%);
+  transform: scale(1.009);
+}
+.img-hover-zoom--brightness .hnhn {
+  position: absolute;
+  background: #fff;
+  height: 55px;
+  width: 55px;
+  top: 10px;
+  left: 10px;
+}
+.img-hover-zoom--brightness .hnhn span {
+  text-align: center;
+  display: block;
+  font-weight: 500;
 }

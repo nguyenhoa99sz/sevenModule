@@ -8,10 +8,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="container">
+    <div class="row">
     <strong style="font-size:200%;color:aquamarine;">Magazine & Blog</strong>
     <div class="blog">
         <div class="col-md-4">
+        <div class="nnn" style="position:relative">
         <img src="images/menu/giay1.jpg" width="350px" height="350px">
+        <b class="hjhj" style="position:relative">08</b>
+        <b class="pp" style="position:relative">Creative,Hobbies</b>
+    </div>
         <br>
         <strong class="st">Shoes 1<strong>
             <br>
@@ -37,8 +42,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 text-decoration: underline;
                 }
                 </style>
-                <br>
-                <b class="pp">Creative,Hobbies</b>
         </div>
         <div class="blog">
         <div class="col-md-4">
@@ -103,7 +106,5 @@ $url_path = str_replace('\\', '/', $url_path);
                 <b class="pp">Creative,Hobbies</b>
         </div>
     </div>
-    <div class="col-md-4 t1">08 <br> AG</div>
-    <div class="col-md-4 t2">08 <br> AG</div>
-    <div class="col-md-4 t3">08 <br> AG</div>
+    </div>
 </div>

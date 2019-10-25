@@ -11,41 +11,46 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-835">
-
+<div class="type-17">
+<div class="container">
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;"><img src="images/giay1.jpg" class="img-responsive"></div>
-      <p>Some text..</p>
+      <div class="img-hover-zoom--brightness" style="height:200px;">
+        <img src="images/giay1.jpg" class="img-responsive">
+        <div class="hnhn">
+          <span>24</span>
+          <span>JUN</span>
+        </div>
+      </div>
+      <br>
+      <h1>Viverra metus parturient</h1>
+      <br><b class="theb"> Posted By</b>
+     <a>V.Harison</a> / <a>Life Style</a> / <a>Leave a comment</a>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;"><img src="images/giay2.jpg"></div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <a class="theread">Read More</a>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg"><img src="images/giay3.jpg"></div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <div class="hbhb">
+      <span>Creative</span> <br>
+      <span>Future</span> <br>
+      <span>Hobbies</span> <br>
+      <span>international</span> <br> 
+      <span>Life Style</span><br> 
+      <span>Travel</span><br>
+      </div>
+      
     </div>
     <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><img src="images/giay3.jpg"></div><br>
-      <div class="fakeimg"><img src="images/giay3.jpg"></div><br>
-      <div class="fakeimg"><img src="images/giay3.jpg"></div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+      <h3>Recents Post</h3>
+      <div class="theimg"><img src="images/giay3.jpg"></div><br>
+      <div class="theimg"><img src="images/giay3.jpg"></div><br>
+      <div class="theimg"><img src="images/giay3.jpg"></div>
     </div>
   </div>
+</div>
 </div>
 </div>
