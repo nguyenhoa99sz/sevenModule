@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
       <br>
       <h1>Viverra metus parturient</h1>
       <br><b class="theb"> Posted By</b>
-     <a>V.Harison</a> / <a>Life Style</a> / <a>Leave a comment</a>
+     <a>V.Harison</a> / <a>Life Style</a> / <a>Leave a comment</a> <br> <br>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <a class="theread">Read More</a>
     </div>
@@ -45,11 +45,20 @@ $url_path = str_replace('\\', '/', $url_path);
       
     </div>
     <div class="card">
-      <h3>Recents Post</h3>
-      <div class="theimg"><img src="images/giay3.jpg"></div><br>
-      <div class="theimg"><img src="images/giay3.jpg"></div><br>
-      <div class="theimg"><img src="images/giay3.jpg"></div>
+      <h3 class="mnb">Recents Post</h3>
+      <div><img class="theimg" src="images/giay3.jpg">
+      <span><a class="maria">Maria OzaWa</a></span>
+      <p class="thep">August 8,2015</p>
     </div>
+      <div><img class="theimg" src="images/giay3.jpg">
+      <span><a class="maria">Maria OzaWa</a></span>
+      <p class="thep">August 8,2015</p>
+    </div>
+      <div><img class="theimg" src="images/giay3.jpg">
+      <span><a class="maria">Maria OzaWa</a></span>
+      <p class="thep">August 8,2015</p>
+    </div>
+  </div>
   </div>
 </div>
 </div>
