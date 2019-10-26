@@ -23,28 +23,28 @@
 						
 						<div class="title-custom">Yuii Hanato</div>£69$
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide active-slider">
 							<img src="images/5.png" width="100%" class="img-responsive">
 							<div class="kkk">
 							<div class="overlay"><a><i class="fa fa-search"></i></a> <a><i class="fa fa-cart-plus"></i> </a><a><i class="fa fa-heart"></i></a></div>
 						</div>
 						    <div class="title-custom">Yuii Hanato</div>£69$
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide active-slider">
 						   <img src="images/5.png" width="100%" class="img-responsive">
 						   <div class="kkk">
 							<div class="overlay"><a><i class="fa fa-search"></i></a> <a><i class="fa fa-cart-plus"></i> </a><a><i class="fa fa-heart"></i></a></div>
 						</div>
 						   <div class="title-custom">Yuii Hanato</div>£69$
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide active-slider">
 						   <img src="images/5.png" width="100%" class="img-responsive">
 						   <div class="kkk">
 							<div class="overlay"><a><i class="fa fa-search"></i></a> <a><i class="fa fa-cart-plus"></i> </a><a><i class="fa fa-heart"></i></a></div>
 						</div>
 						   <div class="title-custom">Yuii Hanato</div>£69$
 						</div>
-						<div class="swiper-slide">
+						<div class="swiper-slide active-slider">
 						   <img src="images/5.png" width="100%" class="img-responsive">
 						   <div class="kkk">
 							<div class="overlay"><a><i class="fa fa-search"></i></a> <a><i class="fa fa-cart-plus"></i> </a><a><i class="fa fa-heart"></i></a></div>

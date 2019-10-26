@@ -8,103 +8,68 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="container">
-    <div class="row">
     <strong style="font-size:200%;color:aquamarine;">Magazine & Blog</strong>
+    <div class="row">
+    
+    <div class="col-md-4">
     <div class="blog">
-        <div class="col-md-4">
         <div class="nnn" style="position:relative">
-        <img src="images/menu/giay1.jpg" width="350px" height="350px">
-        <b class="hjhj" style="position:relative">08</b>
-        <b class="pp" style="position:relative">Creative,Hobbies</b>
-    </div>
+            <img src="images/menu/giay1.jpg" width="100%" height="350px">
+            <div class="hnhn">
+            <span>24</span>
+            <span>JUN</span>
+            </div>
+        </div>
         <br>
         <strong class="st">Shoes 1<strong>
             <br>
             <small style="color: chartreuse;">Leave a Comment<small>
                 <br>
-            <a style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</a>
-            <br>
-            <p class="acc"><b><a href="#" target="_blank" style="color: #black;">Read More</a></b></p>
-                <style>
-                acc:link {
-                text-decoration: none;
-                }
-
-                acc:visited {
-                text-decoration: none;
-                }
-
-                acc:hover {
-                text-decoration: underline;
-                }
-
-                acc:active {
-                text-decoration: underline;
-                }
-                </style>
+            <p style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</p>
+            
+            <p class="acc"><b><a href="#" target="_blank" >Read More</a></b></p>
+       
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="blog">
+        <div class="nnn" style="position:relative">
+            <img src="images/menu/giay3.jpg" width="100%" height="350px">
+            <div class="hnhn">
+            <span>24</span>
+            <span>JUN</span>
+            </div>
         </div>
-        <div class="blog">
-        <div class="col-md-4">
-        <img src="images/menu/giay2.jpg" width="350px" height="350px">
         <br>
         <strong class="st">Shoes 1<strong>
             <br>
             <small style="color: chartreuse;">Leave a Comment<small>
                 <br>
-            <a style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</a>
-            <br>
-            <p class="acc"><b><a href="#" target="_blank" style="color: #black;">Read More</a></b></p>
-                <style>
-                acc:link {
-                text-decoration: none;
-                }
-
-                acc:visited {
-                text-decoration: none;
-                }
-
-                acc:hover {
-                text-decoration: underline;
-                }
-
-                acc:active {
-                text-decoration: underline;
-                }
-                </style>
-                <br>
-                <b class="pp">Creative,Hobbies</b>
+            <p style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</p>
+            
+            <p class="acc"><b><a href="#" target="_blank" >Read More</a></b></p>
+        
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="blog">
+        <div class="nnn" style="position:relative">
+            <img src="images/menu/giay3.jpg" width="100%" height="350px">
+            <div class="hnhn">
+            <span>24</span>
+            <span>JUN</span>
+            </div>
         </div>
-        <div class="blog">
-        <div class="col-md-4">
-        <img src="images/menu/giay3.jpg" width="350px" height="350px">
         <br>
         <strong class="st">Shoes 1<strong>
             <br>
             <small style="color: chartreuse;">Leave a Comment<small>
                 <br>
-            <a style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</a>
-            <br>
-            <p class="acc"><b><a href="#" target="_blank" style="color: #black;">Read More</a></b></p>
-                <style>
-                acc:link {
-                text-decoration: none;
-                }
-
-                acc:visited {
-                text-decoration: none;
-                }
-
-                acc:hover {
-                text-decoration: underline;
-                }
-
-                acc:active {
-                text-decoration: underline;
-                }
-                </style>
-                <br>
-                <b class="pp">Creative,Hobbies</b>
-        </div>
+            <p style="color: #907878;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel itaque, nulla pariatur amet deserunt possimus. Sapiente ab dicta sunt explicabo adipisci ipsam, voluptates beatae, blanditiis at perferendis cum placeat.</p>
+            
+            <p class="acc"><b><a href="#" target="_blank" >Read More</a></b></p>
+        
     </div>
     </div>
+</div>
 </div>

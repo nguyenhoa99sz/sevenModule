@@ -35,12 +35,12 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="card">
       <h2>About Me</h2>
       <div class="hbhb">
-      <span>Creative</span> <br>
-      <span>Future</span> <br>
-      <span>Hobbies</span> <br>
-      <span>international</span> <br> 
-      <span>Life Style</span><br> 
-      <span>Travel</span><br>
+      <span><a class="maria">Creative</span></a> <br>
+      <span><a class="maria">Future</span></a> <br>
+      <span><a class="maria">Hobbies</span></a> <br>
+      <span><a class="maria">international</span></a> <br> 
+      <span><a class="maria">Life Style</span></a><br> 
+      <span><a class="maria">Travel</span></a><br>
       </div>
       
     </div>
