@@ -1,0 +1,90 @@
+body {
+  background: #F6F9FC;
+}
+.type-2 {
+  margin-top: 20px;
+}
+.type-2 a {
+  text-decoration: none;
+  color: #000000;
+}
+.type-2 .top-title .dropdown {
+  margin-right: 10px;
+  float: right;
+}
+.type-2 .top-title .dropdown button {
+  background: #ffffff;
+  color: gray;
+  border: 1px solid gray;
+}
+.type-2 .item-wrap {
+  margin-top: 40px;
+}
+.type-2 .item-wrap .list-job {
+  padding: 30px;
+  display: -webkit-flex;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #dee6ed;
+}
+.type-2 .item-wrap .list-job .logo {
+  padding-right: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.type-2 .item-wrap .list-job .information {
+  margin: 10px;
+}
+.type-2 .item-wrap .list-job .information .time {
+  color: #eeb96e;
+}
+.type-2 .item-wrap .list-job .information .title {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+}
+.type-2 .item-wrap .list-job .information .title:hover {
+  color: #7EABFE;
+}
+.type-2 .item-wrap .list-job .information .info {
+  text-decoration: none;
+  color: #1768fe;
+}
+.type-2 .item-wrap .list-job .information span {
+  color: gray;
+  padding-right: 10px;
+}
+.type-2 .item-wrap .list-job:hover {
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+  transform: scale(1.02);
+}
+.type-2 .search {
+  background: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+}
+.type-2 #accordion .panel-heading {
+  background: #1768fe;
+  padding: 10px;
+}
+.type-2 #accordion .panel-title>a {
+  display: block;
+  padding: 0.4em 0.6em;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+.type-2 #accordion .panel-body {
+  color: gray;
+}
+.type-2 #accordion .panel-title>a.accordion-toggle::before,
+.type-2 #accordion a[data-toggle="collapse"]::before {
+  content: "\e113";
+  float: right;
+  font-family: 'Glyphicons Halflings';
+  margin-right: 1em;
+}
+.type-2 #accordion .panel-title>a.accordion-toggle.collapsed::before,
+.type-2 #accordion a.collapsed[data-toggle="collapse"]::before {
+  content: "\e114";
+}
