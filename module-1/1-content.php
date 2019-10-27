@@ -8,92 +8,81 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1">
-    <!--top header-->
-    <div class="top-header">
-        <div class="container">
-            <div class="row header">
-                <div class="col-md-6">
-                    <div class="item-left">
-                        <div class="nav-item">
-                            <span href="#">OUR PHONE NUMBER: +09 (00)8978343</span>
+    <div class="container">
+        <!--menu-->
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo-menu" href="#"><img src="./images/logo_white.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="collapsibleNavId" class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="dropdown dmenu">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home <b class="caret"></b></a>
+                        <ul class="dropdown-menu sm-menu">
+                            <li><a href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown dmenu">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Employers <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu sm-menu">
+                            <li><a href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown dmenu">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu sm-menu">
+                            <li><a href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown dmenu">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Pages <b
+                                class="caret"></b></a>
+                        <ul class="dropdown-menu sm-menu">
+                            <li><a href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="login">Login</a></li>
+                    <li><a href="#" class="register">Register</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+        <!--end menu-->
+        <div class="banner">
+            <h1>Million Offers Waiting for You !</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</span>
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="inputText" class="sr-only">Job title or keywword</label>
+                    <input type="text" class="form-control" id="inputText" placeholder="Job title or keywword">
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdow-button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Categories <b class="caret"></b>
+                        </button>
+                        <div class="dropdown-menu">
+                            <li><a href="#">Acountin</a></li>
+                            <li><a href="#">Grafic design</a></li>
                         </div>
                     </div>
+                    <label for="inputText" class="sr-only">Location</label>
+                    <input type="text" class="form-control" id="inputText" placeholder="Location">
                 </div>
-                <div class="col-md-6">
-                    <ul class="item-right">
-                        <li class="item">
-                            <a href="#"><i class="fa fa-user"></i> My Account</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Cart</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">our location</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <button type="submit" class="btn btn-primary mb-2 identity">Find Jobs</button>
+            </form>
+            <span>Trending Keywords:</span> <a href="#">Designer, </a><a href="#">Developer, </a>
+            <a href="#">Marketing, </a><a href="#"> Business, </a><a href="#"> Creative</a>
         </div>
     </div>
-    <!--end header-->
-    <!--menu-->
-
-    <div class="menu">
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="logo" class="img-logo"></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">About me</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Feature</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right top-right">
-                        <li class="nav-link">
-                            <a href="#">Login / Register</a>
-                        </li>
-                        <li>
-                            <form action="" class="form-search">
-                                <input type="search" class="search" placeholder="Search..." ,>
-                                <i class="fa fa-search search-button"></i>
-                            </form>
-                        </li>
-                        <li class="item-cart">
-                            <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
-
-        </div>
-    </div>
-     <!--end menu-->
-
-    <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
-        dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.
-    </p>
-
-
 </div>
