@@ -1,0 +1,71 @@
+.type-14 {
+  background-image: url(../images/bg.jpg);
+  padding-top: 50px;
+}
+.type-14 .title {
+  margin-bottom: 84px;
+}
+.type-14 .title h1 {
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.type-14 .title span {
+  color: #f5f3f3;
+  margin-bottom: 20px;
+}
+.type-14 .google {
+  background: #FF9B0F;
+  padding: 15px 40px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+.type-14 .store {
+  background: #ffffff;
+  padding: 15px 40px;
+  color: #000000;
+}
+.type-14 .bounceIn:hover {
+  animation-duration: .1s;
+  animation-name: bounceIn;
+}
+.type-14 .app {
+  margin-top: 27px;
+}
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215,0.61,0.355,1);
+    animation-timing-function: cubic-bezier(0.215,0.61,0.355,1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3,0.3,0.3);
+    transform: scale3d(0.3,0.3,0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1,1.1,1.1);
+    transform: scale3d(1.1,1.1,1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9,0.9,0.9);
+    transform: scale3d(0.9,0.9,0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03,1.03,1.03);
+    transform: scale3d(1.03,1.03,1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97,0.97,0.97);
+    transform: scale3d(0.97,0.97,0.97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+}
