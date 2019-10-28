@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/10.less', 'css/10.css');
+$less->compileFile('less/4.less', 'css/4.css');
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,13 +23,13 @@ $less->compileFile('less/10.less', 'css/10.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/10.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/10.js"></script>
+        <script src="<?php echo $url_path ?>/js/4.js"></script>
        
     </head>
     <body>
-        <?php include $dir_block . '/10-content.php'; ?>
+        <?php include $dir_block . '/4-content.php'; ?>
     </body>
 </html>
