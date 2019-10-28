@@ -43,28 +43,27 @@ $url_path = str_replace('\\', '/', $url_path);
         }
         </style>
         <!-- Swiper -->
-        <h1 style="text-align:center;">Product</h1>
+        <h1 class="pro" style="text-align:center;">Product</h1>
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
-                            <img src="images/giay1.jpg" class="front img-responsive" style="width:240px; height:292px;">
+                            <img src="images/giay1.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay2.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
-                                    <a class="mnb"><a class="mnb"><i class="fa fa-heart-o"
-                                                aria-hidden="true"></i></a></a>
+                                    <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
-                            <img src="images/giay2.jpg" alt="responsive" class="back"  style="width:240px; height:292px;">
-
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -78,14 +77,15 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay2.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay3.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
                         </div>
                         <figcaption class="info-wrap">
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -107,24 +107,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay3.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay4.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -138,24 +137,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay4.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay5.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -169,24 +167,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay5.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay6.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -200,24 +197,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay6.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay7.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -231,24 +227,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay7.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay8.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -262,24 +257,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay8.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay9.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -293,24 +287,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay9.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay10.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
@@ -324,24 +317,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </figure>
                 </div>
                 <div class="swiper-slide">
-                    <figure class="card card-product">
+                <figure class="card card-product">
                         <div class="img-wrap">
                             <img src="images/giay10.jpg" style="width:240px;height:292px;">
+                            
+                            <img class="hover-img" src="images/giay1.jpg" style="width:240px;height:292px;">
                             <ul class="font-awe">
                                 <li>
                                     <a class="mnb"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 </li>
-
                             </ul>
-                            <div class="hover-img">
-                            </div>
                         </div>
                         <figcaption class="info-wrap">
                             <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>    
                             <span class="fa fa-star"></span>
                             <div class="price-wrap">
                                 <div class="wrap-swap">
