@@ -51,6 +51,7 @@ body {
 
             .coment {
                 float: right;
+                color: @color-gray;
             }
         }
 
@@ -62,25 +63,79 @@ body {
     .search {
         .input-group {
             border: none;
-            width: 90%;
-            input{
+            width: 87%;
+
+            input {
                 height: 45px;
                 border: none;
             }
+
             .btn-search {
                 background: #ffffff;
                 position: absolute;
                 width: 15%;
                 height: 45px;
-                &:hover{
+
+                &:hover {
                     background: #1768FE;
                     color: #ffffff;
                 }
-                .fa-search{
+
+                .fa-search {
                     font-size: 20px;
                 }
             }
         }
+
+    }
+
+    .categories {
+        background: #ffffff;
+        margin-top: 20px;
+        padding: 15px;
+
+        a {
+            display: block;
+            padding: 5px 0;
+            color: @color-gray;
+        }
+    }
+
+    .laters {
+        background: #ffffff;
+        margin-top: 20px;
+        padding: 15px;
+
+        ul {
+            li {
+                list-style: none;
+                display: flex;
+                margin-left: -39px;
+                margin-bottom: 10px;
+                .image {
+                    width: 50%;
+                    padding-right: 20px;
+                }
+                .inner {
+
+                    a {
+                        display: block;
+                        color: #000000;
+                        &:hover {
+                            color: #1768FE;
+                        }
+                    }
+                    span{
+                        color: @color-gray;
+                    }
+                }
+            }
+        }
+
+
+
+
+        
 
     }
 

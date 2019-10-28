@@ -56,7 +56,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="depcition">
                                 <span><i class="fa fa-calendar-check-o"></i> September 26, 2019June 23, 2019</span>
-                                <h2><a href="#">Writers Needed with Experience of Portable Generators</a></h2>
+                                <h2><a href="#">Writers Needed with Experience of Portable</a></h2>
                                 <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                     doloremque laudantium, totam</span>
                             </div>
@@ -90,11 +90,63 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="search">
                     <form action="" method="get">
                         <div class="input-group">
-                            <input type="text" placeholder="Search" name="s" class="form-control" >
-                            <button type="submit" class="btn btn-sm btn-search"><i class="fa fa-search "></i></button> 
+                            <input type="text" placeholder="Search" name="s" class="form-control">
+                            <button type="submit" class="btn btn-sm btn-search"><i class="fa fa-search "></i></button>
                             <input type="hidden" name="post_type" value="post" class="post_type">
                         </div>
                     </form>
+                </div>
+                <div class="categories">
+                    <h4>Browse Category</h4>
+                    <a href="#">Business (2)</a>
+                    <a href="#">Design & Creative (2)</a>
+                    <a href="#">Education (1)</a>
+                    <a href="#">IT & Computer (2)</a>
+                    <a href="#">Photography (1)</a>
+                </div>
+                <div class="laters">
+                    <h4>Latest Post</h4>
+                    <ul>
+                        <li>
+                            <div class="image">
+                                <a href="#"><img src="./images/blog1.jpg" alt="" class="img-responsive"></a>
+                            </div>
+                            <div class="inner">
+                                <a href="#">Freelance Content Copywriter and Blogging</a>
+                                <span>September 26, 2019</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <a href="#"><img src="./images/blog2.jpg" alt="" class="img-responsive"></a>
+                            </div>
+                            <div class="inner">
+                                <a href="#">Blog Writing with Experience in Copywriting</a>
+                                <span>August 23, 2019</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <a href="#"><img src="./images/blog3.jpg" alt="" class="img-responsive"></a>
+                            </div>
+                            <div class="inner">
+                                <a href="#"> Writers Needed with Experience of Portable </a>
+                                <span>June 23, 2019</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image">
+                                <a href="#"><img src="./images/blog4.jpg" alt="" class="img-responsive"></a>
+                            </div>
+                            <div class="inner">
+                                <a href="#"> What Marketing Tips Didn’t Work Marketing</a>
+                                <span>May 23, 2019</span>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
                 </div>
             </div>
 

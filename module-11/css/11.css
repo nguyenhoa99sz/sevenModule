@@ -41,13 +41,14 @@ body {
 }
 .type-11 .list-inner .actor .coment {
   float: right;
+  color: #888b90;
 }
 .type-11 .list-inner:hover {
   box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
 }
 .type-11 .search .input-group {
   border: none;
-  width: 90%;
+  width: 87%;
 }
 .type-11 .search .input-group input {
   height: 45px;
@@ -65,4 +66,39 @@ body {
 }
 .type-11 .search .input-group .btn-search .fa-search {
   font-size: 20px;
+}
+.type-11 .categories {
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 15px;
+}
+.type-11 .categories a {
+  display: block;
+  padding: 5px 0;
+  color: #888b90;
+}
+.type-11 .laters {
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 15px;
+}
+.type-11 .laters ul li {
+  list-style: none;
+  display: flex;
+  margin-left: -39px;
+  margin-bottom: 10px;
+}
+.type-11 .laters ul li .image {
+  width: 50%;
+  padding-right: 20px;
+}
+.type-11 .laters ul li .inner a {
+  display: block;
+  color: #000000;
+}
+.type-11 .laters ul li .inner a:hover {
+  color: #1768FE;
+}
+.type-11 .laters ul li .inner span {
+  color: #888b90;
 }

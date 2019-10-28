@@ -36,10 +36,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img src="./images/2.jpg" alt="" class="img-responsive">
                         <div class="icon-share">
                             <ul>
-                                <li class="social-facebook "><i class="fa fa-facebook"></i></li>
-                                <li class="social-twitter "><i class="fa fa-twitter"></i></li>
-                                <li class="social-google "><i class="fa fa-google-plus"></i></li>
-                                <li class="social-in "><i class="fa fa-linkedin"></i></li>
+                            <a href="#"><li class="social-facebook "><i class="fa fa-facebook"></i></li></a>
+                                <a href="#"><li class="social-twitter "><i class="fa fa-twitter"></i></li></a>
+                                <a href="#"><li class="social-google "><i class="fa fa-google-plus"></i></li></a>
+                                <a href="#"><li class="social-in "><i class="fa fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -55,10 +55,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img src="./images/3.jpg" alt="" class="img-responsive">
                         <div class="icon-share">
                             <ul>
-                                <li class="social-facebook "><i class="fa fa-facebook"></i></li>
-                                <li class="social-twitter "><i class="fa fa-twitter"></i></li>
-                                <li class="social-google "><i class="fa fa-google-plus"></i></li>
-                                <li class="social-in "><i class="fa fa-linkedin"></i></li>
+                            <a href="#"><li class="social-facebook "><i class="fa fa-facebook"></i></li></a>
+                                <a href="#"><li class="social-twitter "><i class="fa fa-twitter"></i></li></a>
+                                <a href="#"><li class="social-google "><i class="fa fa-google-plus"></i></li></a>
+                                <a href="#"><li class="social-in "><i class="fa fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
@@ -74,10 +74,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img src="./images/4.jpg" alt="" class="img-responsive">
                         <div class="icon-share">
                             <ul>
-                                <li class="social-facebook "><i class="fa fa-facebook"></i></li>
-                                <li class="social-twitter "><i class="fa fa-twitter"></i></li>
-                                <li class="social-google "><i class="fa fa-google-plus"></i></li>
-                                <li class="social-in "><i class="fa fa-linkedin"></i></li>
+                            <a href="#"><li class="social-facebook "><i class="fa fa-facebook"></i></li></a>
+                                <a href="#"><li class="social-twitter "><i class="fa fa-twitter"></i></li></a>
+                                <a href="#"><li class="social-google "><i class="fa fa-google-plus"></i></li></a>
+                                <a href="#"><li class="social-in "><i class="fa fa-linkedin"></i></li></a>
                             </ul>
                         </div>
                     </div>
