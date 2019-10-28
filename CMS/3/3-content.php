@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-13">
+<div class="type-3">
   <div class="container">
     <!-- Demo styles -->
   <style>
@@ -47,31 +47,31 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay1.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay1.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
+                        <img src="images/giay2.jpg" alt="responsive" class="img-responsive">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -79,29 +79,28 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay2.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay2.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -109,31 +108,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay3.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay3.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -141,31 +139,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay4.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay4.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -173,31 +170,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay5.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay5.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -205,31 +201,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay6.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay6.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -237,31 +232,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay7.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay7.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -269,31 +263,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay8.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay8.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -301,31 +294,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay9.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay9.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -333,31 +325,30 @@ $url_path = str_replace('\\', '/', $url_path);
       <div class="swiper-slide">
       <figure class="card card-product">
                     <div class="img-wrap">
-                    <img src="images/giay10.jpg" style="width:300px;height:300px;">
+                    <img src="images/giay10.jpg" style="width:240px;height:292px;">
                         <ul class="font-awe">
                             <li>
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </li>
-                            <li>
-                                <i class="fa fa-refresh" aria-hidden="true"></i>
-                            </li>
-                            <li>
-                                <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            </li>
+                            
                         </ul>
                         <div class="hover-img">
                         </div>
                     </div>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Backpack double strap</a>
+                        <a href="#" class="title">Man</a> <br> Lucy Slim Jearn Noisy May <br> 
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         <div class="price-wrap">
                             <div class="wrap-swap">
-                                <span class="price-new">£12.00 - £15.00</span>
+                                <span class="price-new" style="text-align:center">$50.00</span>
                                 <div class="select-option">
-                                    <a href="#">🛒Select Options</a>
+                                    <a href="#">QUICK VIEWS</a>
                                 </div>
                             </div>
-                            <!-- <del class="price-old">$1980</del> -->
                         </div>
                     </figcaption>
                 </figure>
@@ -378,9 +369,9 @@ $url_path = str_replace('\\', '/', $url_path);
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
+      slidesPerView: 4,
+      spaceBetween: 40,
+      slidesPerGroup: 4,
       loop: true,
       loopFillGroupWithBlank: true,
       pagination: {
