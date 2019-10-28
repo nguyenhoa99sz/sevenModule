@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
@@ -13,21 +12,24 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/17.less', 'css/17.css');
+$less->compileFile('less/5.less', 'css/5.css');
 ?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>17</title>
+        <title>5</title>
         <meta charset="utf-8">
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Basic usage demo">
         <meta name="author" content="David Deutsch">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/17.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/5.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
     </head>
     <body>
-        <?php include $dir_block . '/17-content.php'; ?>
+        <?php include $dir_block . '/5-content.php'; ?>
     </body>
 </html>
