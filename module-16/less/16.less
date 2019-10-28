@@ -1,0 +1,85 @@
+@color-gray: #888b90;
+.type-16{
+    background: #F6F9FC;
+    padding: 40px 0;
+    a{
+        text-decoration: none;
+    }
+    .search {
+        .input-group {
+            border: none;
+            width: 88%;
+            input{
+                height: 45px;
+                border: none;
+            }
+            .btn-search {
+                background: #ffffff;
+                position: absolute;
+                width: 14%;
+                height: 45px;
+                &:hover{
+                    background: #1768FE;
+                    color: #ffffff;
+                }
+                .fa-search{
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+    .navition{
+        background: #ffffff;
+        padding: 15px;
+        margin-top: 20px;
+        a{
+            padding: 5px 0;
+            display: block;
+            color: @color-gray;
+            &:hover{
+                color: #4C8BFE;
+            }
+        }
+        
+    }
+    .quesition{
+        background: #ffffff;
+        padding: 15px;
+        margin-top: 20px;
+        span{
+            color: @color-gray;
+        }
+        
+    }
+    #accordion {
+        .panel-heading {
+            background: #1768fe;
+            padding: 10px;
+        }
+        .panel-title>a {
+            display: block;
+            padding: 0.4em 0.6em;
+            outline: none;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .panel-body{
+            color: @color-gray;
+        }
+
+    }
+    #accordion .panel-title>a.accordion-toggle::before,
+    #accordion a[data-toggle="collapse"]::before {
+        content: "\e113";
+        float: right;
+        font-family: 'Glyphicons Halflings';
+        margin-right: 1em;
+    }
+
+    #accordion .panel-title>a.accordion-toggle.collapsed::before,
+    #accordion a.collapsed[data-toggle="collapse"]::before {
+        content: "\e114";
+    }
+}

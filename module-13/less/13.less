@@ -1,0 +1,108 @@
+body {
+    background: #F6F9FC;
+}
+
+@color-white: #ffffff;
+
+.type-13 {
+    img {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .list-inner {
+        background: #ffffff;
+
+        .img-top {
+            .icon-share {
+                position: absolute;
+                top: 180px;
+                margin-left: 40px;
+                text-align: center;
+
+                ul li {
+                    list-style: none;
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    padding-top: 5px;
+                    margin-left: -40px;
+                    margin-right: 55px;
+
+                    -webkit-transition: all 0.4s ease-in-out 0s;
+                    -o-transition: all 0.4s ease-in-out 0s;
+                    transition: all 0.4s ease-in-out 0s;
+
+                    -webkit-transform: scale(0);
+                    -ms-transform: scale(0);
+                    -o-transform: scale(0);
+                    transform: scale(0);
+
+                }
+
+                .social-facebook {
+                    background-color: #365493;
+                    border-radius: 50%;
+                    color: @color-white;
+                    transition-delay: 0.2s;
+                }
+
+                .social-twitter {
+                    background-color: #3CF;
+                    border-radius: 50%;
+                    color: @color-white;
+                    transition-delay: 0.3s;
+                }
+
+                .social-google {
+                    background-color: #F89A1E;
+                    border-radius: 50%;
+                    color: @color-white;
+                    transition-delay: 0.4s;
+                }
+
+                .social-in {
+                    background-color: #0274b3;
+                    border-radius: 50%;
+                    color: @color-white;
+                    transition-delay: 0.5s;
+                }
+
+
+            }
+        }
+
+        .depcition {
+            margin: 16px;
+
+            span {
+                color: gray;
+            }
+
+            a {
+                color: #1768FE;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 6px 40px 0 rgba(167, 174, 189, 0.4);
+
+        }
+
+        &:hover .icon-share ul li {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+}

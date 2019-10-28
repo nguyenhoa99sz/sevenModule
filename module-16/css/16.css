@@ -1,0 +1,75 @@
+.type-16 {
+  background: #F6F9FC;
+  padding: 40px 0;
+}
+.type-16 a {
+  text-decoration: none;
+}
+.type-16 .search .input-group {
+  border: none;
+  width: 88%;
+}
+.type-16 .search .input-group input {
+  height: 45px;
+  border: none;
+}
+.type-16 .search .input-group .btn-search {
+  background: #ffffff;
+  position: absolute;
+  width: 14%;
+  height: 45px;
+}
+.type-16 .search .input-group .btn-search:hover {
+  background: #1768FE;
+  color: #ffffff;
+}
+.type-16 .search .input-group .btn-search .fa-search {
+  font-size: 20px;
+}
+.type-16 .navition {
+  background: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+}
+.type-16 .navition a {
+  padding: 5px 0;
+  display: block;
+  color: #888b90;
+}
+.type-16 .navition a:hover {
+  color: #4C8BFE;
+}
+.type-16 .quesition {
+  background: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+}
+.type-16 .quesition span {
+  color: #888b90;
+}
+.type-16 #accordion .panel-heading {
+  background: #1768fe;
+  padding: 10px;
+}
+.type-16 #accordion .panel-title>a {
+  display: block;
+  padding: 0.4em 0.6em;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.type-16 #accordion .panel-body {
+  color: #888b90;
+}
+.type-16 #accordion .panel-title>a.accordion-toggle::before,
+.type-16 #accordion a[data-toggle="collapse"]::before {
+  content: "\e113";
+  float: right;
+  font-family: 'Glyphicons Halflings';
+  margin-right: 1em;
+}
+.type-16 #accordion .panel-title>a.accordion-toggle.collapsed::before,
+.type-16 #accordion a.collapsed[data-toggle="collapse"]::before {
+  content: "\e114";
+}

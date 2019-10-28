@@ -7,93 +7,39 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-1">
-    <!--top header-->
-    <div class="top-header">
-        <div class="container">
-            <div class="row header">
-                <div class="col-md-6">
-                    <div class="item-left">
-                        <div class="nav-item">
-                            <span href="#">OUR PHONE NUMBER: +09 (00)8978343</span>
-                        </div>
-                    </div>
+<div class="type-17">
+    <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="loginmodal-container">
+                <h1>Sign In</h1><br>
+                <form>
+                    <input type="text" name="user" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" style="background: #FF9A0C;">
+                </form>
+
+                <div class="login-help" style="text-align: center;">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
                 </div>
-                <div class="col-md-6">
-                    <ul class="item-right">
-                        <li class="item">
-                            <a href="#"><i class="fa fa-user"></i> My Account</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Cart</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">our location</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                <div class="create" style="text-align: center;">
+                    <span>Don’t Have an Account? <a href="#">Create</a></span><br>
                 </div>
+                <div class="section-or">
+                    <b></b>
+                    <span class="or">OR</span>
+                    <b></b>
+                </div>
+                <div class="create-new">
+                    <a href="#" class="ocialfb"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="#" class="ocialGoogle"><i class="fa fa-google-plus"></i> Google</a><br>
+                    <a href="#" class="ociaLink"><i class="fa fa-linkedin"></i> Linkedlln</a>
+                    <a href="#" class="ocialTwitter"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+
             </div>
         </div>
     </div>
-    <!--end header-->
-    <!--menu-->
-
-    <div class="menu">
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="logo" class="img-logo"></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">About me</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Feature</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right top-right">
-                        <li class="nav-link">
-                            <a href="#">Login / Register</a>
-                        </li>
-                        <li>
-                            <form action="" class="form-search">
-                                <input type="search" class="search" placeholder="Search..." ,>
-                                <i class="fa fa-search search-button"></i>
-                            </form>
-                        </li>
-                        <li class="item-cart">
-                            <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
-
-        </div>
-    </div>
-     <!--end menu-->
-
-    <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
-        dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.
-    </p>
-
 
 </div>
