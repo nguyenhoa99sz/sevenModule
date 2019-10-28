@@ -7,93 +7,97 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-1">
-    <!--top header-->
-    <div class="top-header">
-        <div class="container">
-            <div class="row header">
-                <div class="col-md-6">
-                    <div class="item-left">
-                        <div class="nav-item">
-                            <span href="#">OUR PHONE NUMBER: +09 (00)8978343</span>
+<div class="type-11">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-inner">
+                            <div class="img-top">
+                                <img src="./images/blog1.jpg" alt="" class="img-responsive">
+                                <button class="btn categories-name">Design & Creative</button>
+                            </div>
+                            <div class="depcition">
+                                <span><i class="fa fa-calendar-check-o"></i> September 26, 2019</span>
+                                <h2><a href="#">Freelance Content Copywriter and Blogging Badass</a></h2>
+                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam</span>
+                            </div>
+                            <div class="actor">
+                                <a href="#"><i class="fa fa-user"></i> admin</a>
+                                <a href="#"><i class="fa fa-comments-o coment" aria-hidden="true"> 0</i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-inner">
+                            <div class="img-top">
+                                <img src="./images/blog2.jpg" alt="" class="img-responsive">
+                                <button class="btn categories-name">Busines</button>
+                            </div>
+                            <div class="depcition">
+                                <span><i class="fa fa-calendar-check-o"></i> August 23, 2019</span>
+                                <h2><a href="#">Blog Writing with Experience in Copywriting and SEO</a></h2>
+                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam</span>
+                            </div>
+                            <div class="actor">
+                                <a href="#"><i class="fa fa-user"></i> admin</a>
+                                <a href="#"><i class="fa fa-comments-o coment" aria-hidden="true"> 2</i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-inner">
+                            <div class="img-top">
+                                <img src="./images/blog3.jpg" alt="" class="img-responsive">
+                                <button class="btn categories-name">IT & Computer</button>
+                            </div>
+                            <div class="depcition">
+                                <span><i class="fa fa-calendar-check-o"></i> September 26, 2019June 23, 2019</span>
+                                <h2><a href="#">Writers Needed with Experience of Portable Generators</a></h2>
+                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam</span>
+                            </div>
+                            <div class="actor">
+                                <a href="#"><i class="fa fa-user"></i> admin</a>
+                                <a href="#"><i class="fa fa-comments-o coment" aria-hidden="true"> 0</i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-inner">
+                            <div class="img-top">
+                                <img src="./images/blog4.jpg" alt="" class="img-responsive">
+                                <button class="btn categories-name">Photography</button>
+                            </div>
+                            <div class="depcition">
+                                <span><i class="fa fa-calendar-check-o"></i> May 23, 2019</span>
+                                <h2><a href="#">What Marketing Tips Didn’t Work?</a></h2>
+                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam</span>
+                            </div>
+                            <div class="actor">
+                                <a href="#"><i class="fa fa-user"></i> admin</a>
+                                <a href="#"><i class="fa fa-comments-o coment" aria-hidden="true"> 3</i> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <ul class="item-right">
-                        <li class="item">
-                            <a href="#"><i class="fa fa-user"></i> My Account</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Cart</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">our location</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="search">
+                    <form action="" method="get">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search" name="s" class="form-control" >
+                            <button type="submit" class="btn btn-sm btn-search"><i class="fa fa-search "></i></button> 
+                            <input type="hidden" name="post_type" value="post" class="post_type">
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
-    </div>
-    <!--end header-->
-    <!--menu-->
-
-    <div class="menu">
-        <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="brand"><img src="./images/logo-bg.png" alt="logo" class="img-logo"></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">FAQS</a></li>
-                                <li><a href="#">About me</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Feature</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">BLOG</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right top-right">
-                        <li class="nav-link">
-                            <a href="#">Login / Register</a>
-                        </li>
-                        <li>
-                            <form action="" class="form-search">
-                                <input type="search" class="search" placeholder="Search..." ,>
-                                <i class="fa fa-search search-button"></i>
-                            </form>
-                        </li>
-                        <li class="item-cart">
-                            <a href="#" id="opennav"><i class="fa fa-shopping-cart cart-button"></i></i></a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
 
         </div>
     </div>
-     <!--end menu-->
-
-    <p class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam obcaecati amet, veritatis iusto porro
-        dignissimos ratione excepturi iure tempora velit fugit odit sed. Repellat fuga optio dicta esse nobis dolores.
-    </p>
-
-
 </div>

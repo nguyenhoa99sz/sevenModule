@@ -1,0 +1,68 @@
+body {
+  background: #f6f9fc;
+}
+.type-11 {
+  margin-top: 20px;
+  font-family: "Sarabun", Helvetica, Arial, sans-serif;
+}
+.type-11 a {
+  text-decoration: none;
+}
+.type-11 .list-inner {
+  background: #ffffff;
+}
+.type-11 .list-inner .categories-name {
+  position: absolute;
+  top: 22px;
+  margin-left: 20px;
+  background: #feac36;
+  color: #ffffff;
+}
+.type-11 .list-inner .depcition {
+  margin: 16px;
+}
+.type-11 .list-inner .depcition span {
+  color: #888b90;
+}
+.type-11 .list-inner .depcition a {
+  color: #000000;
+}
+.type-11 .list-inner .depcition a:hover {
+  color: #1768FE;
+}
+.type-11 .list-inner .actor {
+  margin: 16px;
+  border-top: 1px solid #aaa7a7;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.type-11 .list-inner .actor a {
+  color: #1768FE;
+}
+.type-11 .list-inner .actor .coment {
+  float: right;
+}
+.type-11 .list-inner:hover {
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+}
+.type-11 .search .input-group {
+  border: none;
+  width: 90%;
+}
+.type-11 .search .input-group input {
+  height: 45px;
+  border: none;
+}
+.type-11 .search .input-group .btn-search {
+  background: #ffffff;
+  position: absolute;
+  width: 15%;
+  height: 45px;
+}
+.type-11 .search .input-group .btn-search:hover {
+  background: #1768FE;
+  color: #ffffff;
+}
+.type-11 .search .input-group .btn-search .fa-search {
+  font-size: 20px;
+}

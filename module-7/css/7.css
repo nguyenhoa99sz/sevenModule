@@ -46,8 +46,3 @@
   box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
   transform: scale(1.02);
 }
-@media screen and (max-width: 755px) {
-  .item-wrap .list-job {
-    display: none;
-  }
-}

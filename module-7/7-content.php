@@ -39,6 +39,30 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="list-job">
                 <div class="logo">
+                    <img src="./images/mvimsy.jpg" alt="biton" class="img-responsive">
+                </div>
+                <div class="information">
+                    <span class="time">Temporary</span><br>
+                    <a href="#" class="title">Bank Transfer Operations Team Leader</a><br>
+                    <a href="#" class="info">Amar</a><span> - Posted 1 month ago</span><br>
+                    <span>Location: <b>305 Hicks St Brooklyn, NY</b> </span>
+                    <span>Salary: <b>$120 - $150 per week</b> </span>
+                </div>
+            </div>
+            <div class="list-job">
+                <div class="logo">
+                    <img src="./images/amar.jpg" alt="biton" class="img-responsive">
+                </div>
+                <div class="information">
+                    <span class="time">Temporary</span><br>
+                    <a href="#" class="title">Bank Transfer Operations Team Leader</a><br>
+                    <a href="#" class="info">Amar</a><span> - Posted 1 month ago</span><br>
+                    <span>Location: <b>305 Hicks St Brooklyn, NY</b> </span>
+                    <span>Salary: <b>$120 - $150 per week</b> </span>
+                </div>
+            </div>
+            <div class="list-job">
+                <div class="logo">
                     <img src="./images/sapient.jpg" alt="biton" class="">
                 </div>
                 <div class="information">
