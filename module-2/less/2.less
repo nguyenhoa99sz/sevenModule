@@ -1,0 +1,118 @@
+body {
+    background: #F6F9FC;
+}
+
+.type-2 {
+    @color-gray: gray;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    margin-top: 20px;
+
+    .top-title {
+        .dropdown {
+            margin-right: 10px;
+
+            button {
+                background: #ffffff;
+                color: @color-gray;
+                border: 1px solid @color-gray;
+            }
+
+            float: right;
+        }
+
+    }
+
+    .item-wrap {
+        margin-top: 40px;
+
+        .list-job {
+            padding: 30px;
+            display: -webkit-flex;
+            align-items: center;
+            background: #ffffff;
+            border-bottom: 1px solid #dee6ed;
+
+            .logo {
+                padding-right: 20px;
+                position: relative;
+                padding-left: 20px;
+
+            }
+
+            .information {
+                margin: 10px;
+
+                .time {
+                    color: rgb(238, 185, 110);
+                }
+
+                .title {
+                    text-decoration: none;
+                    color: #000000;
+                    font-size: 24px;
+
+                    &:hover {
+                        color: #7EABFE;
+                    }
+                }
+
+                .info {
+                    text-decoration: none;
+                    color: #1768fe;
+                }
+
+                span {
+                    color: @color-gray;
+                    padding-right: 10px;
+                }
+            }
+
+            &:hover {
+                box-shadow: 0 6px 40px 0 rgba(167, 174, 189, 0.4);
+                transform: scale(1.02);
+
+            }
+        }
+
+    }
+
+    .search {
+        background: #ffffff;
+        padding: 10px 20px;
+        margin-bottom: 2px;
+    }
+
+    #accordion {
+        .panel-heading {
+            background: #1768fe;
+            padding: 10px;
+        }
+        .panel-title>a {
+            display: block;
+            padding: 0.4em 0.6em;
+            outline: none;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .panel-body{
+            color: @color-gray;
+        }
+
+    }
+    #accordion .panel-title>a.accordion-toggle::before,
+    #accordion a[data-toggle="collapse"]::before {
+        content: "\e113";
+        float: right;
+        font-family: 'Glyphicons Halflings';
+        margin-right: 1em;
+    }
+
+    #accordion .panel-title>a.accordion-toggle.collapsed::before,
+    #accordion a.collapsed[data-toggle="collapse"]::before {
+        content: "\e114";
+    }
+}

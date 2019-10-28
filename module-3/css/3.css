@@ -1,0 +1,16 @@
+.type-3 .text-wrap {
+  background: #1768FE;
+  padding: 100px;
+}
+.type-3 .text-wrap .text-left {
+  color: #fff;
+}
+.type-3 .text-wrap .create-account {
+  margin-top: 20px;
+  background: #FE9703;
+  padding: 20px 20px;
+  color: #fff;
+}
+.type-3 .text-wrap .create-account:hover {
+  background: #e9a13c;
+}

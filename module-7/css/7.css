@@ -1,0 +1,53 @@
+.type-7 {
+  background: #F6F9FC;
+}
+.type-7 .title {
+  text-align: center;
+}
+.type-7 .item-wrap {
+  margin-top: 40px;
+}
+.type-7 .item-wrap .list-job {
+  padding: 30px;
+  display: -webkit-flex;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #dee6ed;
+}
+.type-7 .item-wrap .list-job .logo {
+  padding-right: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.type-7 .item-wrap .list-job .information {
+  margin: 10px;
+}
+.type-7 .item-wrap .list-job .information .time {
+  color: #eeb96e;
+}
+.type-7 .item-wrap .list-job .information .title {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+}
+.type-7 .item-wrap .list-job .information .title:hover {
+  color: #7EABFE;
+}
+.type-7 .item-wrap .list-job .information .info {
+  text-decoration: none;
+  color: #1768fe;
+}
+.type-7 .item-wrap .list-job .information span {
+  color: ;
+  padding-right: 10px;
+}
+.type-7 .item-wrap .list-job:hover {
+  transition: all 0.25s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+  transform: scale(1.02);
+}
+@media screen and (max-width: 755px) {
+  .item-wrap .list-job {
+    display: none;
+  }
+}

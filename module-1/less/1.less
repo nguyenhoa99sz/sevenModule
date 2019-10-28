@@ -1,0 +1,115 @@
+body {
+    background: url(../images/slider1.jpg);
+}
+
+@color-white: #ffffff;
+
+.type-1 {
+    .logo-menu {
+        img {
+            width: 40%;
+            margin-top: -15px;
+        }
+    }
+
+    .navbar-default {
+        padding: 10px 0;
+        background: none;
+        border: none;
+        width: 100%;
+
+        .navbar-default .navbar-nav>li>a {
+            color: none;
+        }
+
+    }
+
+    .dmenu {
+        .active {
+            color: @color-white;
+        }
+    }
+
+    .login {
+        color: @color-white  !important;
+    }
+
+    .register {
+        color: @color-white  !important;
+    }
+
+    .banner {
+        padding-top: 50px;
+        text-align: center;
+        color: @color-white;
+
+        h1 {
+            font-size: 62px;
+        }
+
+        span {
+            font-size: 20px;
+        }
+
+        .form-inline {
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            input {
+                height: 64px;
+                padding-right: 20px;
+                margin-right: 20px;
+            }
+            .dropdow-button {
+                color: gray;
+                background: @color-white;
+                width: 160px;
+                height: 64px;
+                margin-right: 20px;
+            }
+            .identity{
+                height: 64px;
+                background: #FEAC36;
+            }
+        }
+        a{
+            color: #b8d1ff;
+            text-decoration: none;
+            &:hover{
+                color: #31c095;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 671px) {
+    .logo-menu {
+        img {
+            margin-top: -64px !important;
+        }
+    }
+    #collapsibleNavId {
+            position: absolute;
+            background: #175CDB;
+            z-index: 1;
+            top: 4.5em;
+            left: 0;
+            width: 100%;
+            padding-left: 20px;
+        }
+}
+@media screen and (max-width: 500px) {
+    .form-inline{
+        .dropdow-button{
+            width: 453px;
+        }
+        input{
+            margin: 10px 0;
+        
+        }
+        .identity{
+            width: 453px;
+        }
+    }
+}
