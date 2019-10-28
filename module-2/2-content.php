@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="title">Principal DevOps Engineer (Senior Manager, Technology)</a><br>
                             <a href="#" class="info">Visy</a><span> - Posted 1 month ago</span><br>
                             <span>Location: <b>38-78 Bergen St Brooklyn</b> </span>
-                            <span>Salary: <b>$100 - $130 per week/b> </span>
+                            <span>Salary: <b>$100 - $130 per week </span>
                         </div>
                     </div>
                 </div>
