@@ -23,13 +23,26 @@
             margin-bottom: 20px;
         }
     }
-
-
+    .mnb:hover{
+        color: red;
+    }
     .card-product {
         border: none;
         position: relative;
         .img-wrap {
             height: unset;
+            .back,.front{
+                position: absolute;
+                top:0;
+                left:0;
+                overflow: hidden;
+            }
+    
+            .front{
+                z-index: 9999;
+                transition: opacity .5s linear;
+                cursor: pointer;
+            }
             .font-awe {
                 list-style: none;
                 position: absolute;
@@ -38,16 +51,12 @@
                 right: 0px;
                 top: 0;
             }
-            .hover-img {
-                position: absolute;
-                top: 0;
-            }
         }
         .info-wrap {
             padding-left: 0;
             padding-bottom: 0;
             font-size: 17px;
-
+            z-index: 9999;
             .title {
                 font-family: "Times New Roman", Times, serif;
                 color: #000;
@@ -125,5 +134,8 @@
     }
     .checked{
         color:orange;
+    }
+    .img-wrap:hover .front{
+          opacity: 0;
     }
 }
