@@ -1,5 +1,5 @@
-<div class="type-4">
-    <div id="mySidenav" class="sidenav">
+<div class="type-18">
+    <div id="mySidenav" class="sidenav" style="border:1px solid black !important">
         <div class="nav-heading">
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#home">Candidate</a></li>
@@ -93,14 +93,6 @@
                     </div>
                     </div>
                 </div>
-            </div>
-            <div class="login-form-footer" style="font-size:14px; padding: 25px;">
-            <div class="text-center">
-					<ul class="role-tabs flex-middle">
-						<li class="active"><input id="cadidate" type="radio" name="role" value="wp_job_board_candidate" checked="checked"><label for="cadidate">Candidate</label></li>
-						<li class=""><input type="radio" id="employer" name="role" value="wp_job_board_employer"><label for="employer">Employer</label></li>
-					</ul>
-				</div>
             </div>
         </div>
 
