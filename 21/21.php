@@ -24,8 +24,10 @@
         <link href="<?php echo $url_path ?>/css/21.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/21.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     </head>
     <body>
         <?php include '21-content.php'; ?>
+        
     </body>
 </html>

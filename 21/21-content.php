@@ -1,52 +1,114 @@
 <div class="type-4">
     <div id="mySidenav" class="sidenav">
-    <div class="nav-heading">
-        <h3 class="nav-title">SIGN IN</h3>
-          <!-- <a href="#" class="closebtn">CLOSE<span>&times;</span></a> -->
-        <a href="#" class="closebtn">CLOSE</a>
-        <div class="btn-close-bar">
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <div class="nav-heading">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Candidate</a></li>
+                <li><a data-toggle="tab" href="#menu1">Employer</a></li>
+            </ul>
         </div>
+        <!-- item -->
+        <div class="product-custom">
+            <div class="form-group">
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <div class="mid1">
+                            <h3>Create An Accound</h3>
+                            <input type="text" class="form-control coupon-code" placeholder="User Name*"> <br>
+                            <input type="text" class="form-control coupon-code" placeholder="Email*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Password*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Comfirm Password*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Phone*"><br>
+                            <div class="form-group">
+                                <div class="flex-middle">
+                                    <span class="text-medium">Category</span>
+                                    <select id="register-candidate-category"
+                                        class="orderby select2-hidden-accessible form-control coupon-code"
+                                        name="candidate_category" tabindex="-1" aria-hidden="true">
+                                        <option value="">Select Category</option>
+                                        <option>Accounting &amp; Finance</option>
+                                        <option>Education &amp; Training</option>
+                                        <option>Graphics Design</option>
+                                        <option>Health &amp; Hospital</option>
+                                        <option>Restaurant &amp; Food</option>
+                                        <option>Website &amp; Software</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" style="padding-left:10px;padding-right:10px">
+                            <label for="register-terms-and-conditions">
+                                <input type="checkbox" name="terms_and_conditions" value="on"
+                                    id="register-terms-and-conditions">You accept our <a href="#">Terms and Conditions
+                                    and Privacy Policy</a> </label>
+                        </div>
+                        <div class="form-group space-20" style="padding-left:10px;padding-right:10px;">
+                            <button type="submit" class="btn btn-theme btn-block" name="submitRegister"
+                                style="background:#1768fe;color:white;">
+                                Register now </button>
+                        </div>
+                        <div class="create-account text-center">
+                            Already Have an Account? <a href="#"
+                                class="create">Sign In</a> </div>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                    <div class="mid1">
+                            <h3>Create An Accound</h3>
+                            <input type="text" class="form-control coupon-code" placeholder="User Name*"> <br>
+                            <input type="text" class="form-control coupon-code" placeholder="Email*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Password*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Comfirm Password*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Company Name*"><br>
+                            <input type="text" class="form-control coupon-code" placeholder="Phone*"><br>
+                            <div class="form-group">
+                                <div class="flex-middle">
+                                    <span class="text-medium">Category</span>
+                                    <select id="register-candidate-category"
+                                        class="orderby select2-hidden-accessible form-control coupon-code"
+                                        name="candidate_category" tabindex="-1" aria-hidden="true">
+                                        <option value="">Select Category</option>
+                                        <option>Accounting &amp; Finance</option>
+                                        <option>Education &amp; Training</option>
+                                        <option>Graphics Design</option>
+                                        <option>Health &amp; Hospital</option>
+                                        <option>Restaurant &amp; Food</option>
+                                        <option>Website &amp; Software</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" style="padding-left:10px;padding-right:10px">
+                            <label for="register-terms-and-conditions">
+                                <input type="checkbox" name="terms_and_conditions" value="on"
+                                    id="register-terms-and-conditions">You accept our <a href="#">Terms and Conditions
+                                    and Privacy Policy</a> </label>
+                        </div>
+                        <div class="form-group space-20" style="padding-left:10px;padding-right:10px;">
+                            <button type="submit" class="btn btn-theme btn-block" name="submitRegister"
+                                style="background:#1768fe;color:white;">
+                                Register now </button>
+                        </div>
+                        <div class="create-account text-center">
+                            Already Have an Account? <a href="#"
+                                class="create">Sign In</a> </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-form-footer" style="font-size:14px; padding: 25px;">
+            <div class="text-center">
+					<ul class="role-tabs flex-middle">
+						<li class="active"><input id="cadidate" type="radio" name="role" value="wp_job_board_candidate" checked="checked"><label for="cadidate">Candidate</label></li>
+						<li class=""><input type="radio" id="employer" name="role" value="wp_job_board_employer"><label for="employer">Employer</label></li>
+					</ul>
+				</div>
+            </div>
+        </div>
+
     </div>
-      <!-- item -->
-      <div class="product-custom">
-        <div class="form-group">
-          <p>username or email</p>
-          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-          <p>password</p>
-          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-          <br>
-          <div class="olol">
-          <button type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">LOGIN</button></div>
-        </div>
-        <div class="login-form-footer" style="font-size:14px; padding: 25px;">
-          <input type="checkbox" name="vehicle1" value="Bike"> I have a bike 
-          <a href="#" style="float:right; padding: 0px;"><i class="fa fa-globe"></i>Forgot your password?</a>
-          <br>
-          <br>
-          <div class="plpl" style="position: relative; text-align:center;">
-        <div style="border-top: 2px solid #ccc; width: 100%; position:absolute; top: 50%;z-index: -1;"></div>
-        <b class="pro" style=" background: #fff; z-index: 9999;">Or login with</b>
-        </div>
-        <br>
-        <button type="button" class="btn btn-primary"><i class="fa fa-facebook-square"></i>Facebook</button>
-        <br>
-        <br>
-        <button type="button" class="btn btn-info"><i class="fa fa-envelope-open"></i>Gmail</button>
-        <br>
-        <br>
-        <div class="kmkm" style="text-align:center;">
-          No Account Yet??
-          <a href="#">Create An Account</a>
-        </div>
-        </div>
-       
-    </div>
-    </div>
-    <div class="website-content">
-        <span id="opennav">Click open</span>
-    </div>
-    <div class="close-side"></div>
-    
+</div>
+<div class="website-content">
+    <span id="opennav">Click open</span>
+</div>
+<div class="close-side"></div>
+
 </div>
