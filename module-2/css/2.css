@@ -32,6 +32,20 @@ body {
   position: relative;
   padding-left: 20px;
 }
+.type-2 .item-wrap .list-job .logo .item-heart {
+  background: #eeb96e;
+  position: absolute;
+  top: 0;
+  padding: 10px 15px;
+  margin-left: 656px;
+  color: #ffffff;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
 .type-2 .item-wrap .list-job .information {
   margin: 10px;
 }
@@ -57,6 +71,15 @@ body {
 .type-2 .item-wrap .list-job:hover {
   box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
   transform: scale(1.02);
+}
+.type-2 .item-wrap .list-job:hover .item-heart {
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+  transform: scale(1.02);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .type-2 .search {
   background: #ffffff;

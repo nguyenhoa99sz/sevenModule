@@ -34,7 +34,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="list-job">
                         <div class="logo">
                             <img src="./images/bitcon.jpg" alt="biton" class="img-responsive">
+                            <a href="#" class="item-heart"><i class="fa fa-heart-o"></i></a>
                         </div>
+                        
                         <div class="information">
                             <span class="time">Part time</span><br>
                             <a href="#" class="title">Professional Copywriter for Advertising</a><br>
@@ -46,6 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="list-job">
                         <div class="logo">
                             <img src="./images/amar.jpg" alt="biton" class="img-responsive">
+                            <a href="#" class="item-heart"><i class="fa fa-heart-o"></i></a>
                         </div>
                         <div class="information">
                             <span class="time">Temporary</span><br>
@@ -57,7 +60,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="list-job">
                         <div class="logo">
-                            <img src="./images/sapient.jpg" alt="biton" class="">
+                            <img src="./images/sapient.jpg" alt="biton" class="img-responsive">
+                            <a href="#" class="item-heart"><i class="fa fa-heart-o"></i></a>
                         </div>
                         <div class="information">
                             <span class="time">Freelance</span><br>
