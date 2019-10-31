@@ -1,0 +1,147 @@
+body {
+  background: #F6F9FC;
+}
+.type-10 {
+  margin-top: 20px;
+}
+.type-10 a {
+  text-decoration: none;
+  color: #000000;
+}
+.type-10 .top-title .dropdown {
+  margin-right: 10px;
+  float: right;
+}
+.type-10 .top-title .dropdown button {
+  background: #ffffff;
+  color: gray;
+  border: 1px solid gray;
+}
+.type-10 .item-wrap {
+  margin-top: 40px;
+}
+.type-10 .item-wrap .list-job {
+  padding: 30px;
+  display: -webkit-flex;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #dee6ed;
+}
+.type-10 .item-wrap .list-job .logo {
+  padding-right: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.type-10 .item-wrap .list-job .logo .item-heart {
+  background: #eeb96e;
+  position: absolute;
+  top: 0;
+  padding: 10px 15px;
+  margin-left: 656px;
+  color: #ffffff;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+.type-10 .item-wrap .list-job .information {
+  margin: 10px;
+}
+.type-10 .item-wrap .list-job .information .time {
+  color: #eeb96e;
+}
+.type-10 .item-wrap .list-job .information .title {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+}
+.type-10 .item-wrap .list-job .information .title:hover {
+  color: #7EABFE;
+}
+.type-10 .item-wrap .list-job .information .info {
+  text-decoration: none;
+  color: white;
+}
+.type-10 .item-wrap .list-job .information span {
+  color: gray;
+  padding-right: 10px;
+}
+.type-10 .item-wrap .list-job:hover {
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+  transform: scale(1.02);
+}
+.type-10 .item-wrap .list-job:hover .item-heart {
+  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
+  transform: scale(1.02);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.type-10 .search {
+  background: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+}
+.type-10 #accordion .panel-heading {
+  background: white;
+  padding: 10px;
+}
+.type-10 #accordion .panel-title>a {
+  display: block;
+  padding: 0.4em 0.6em;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+.type-10 #accordion .panel-body {
+  color: gray;
+}
+.type-10 #accordion .panel-title>a.accordion-toggle::before,
+.type-10 #accordion a[data-toggle="collapse"]::before {
+  content: "\e113";
+  float: right;
+  font-family: 'Glyphicons Halflings';
+  margin-right: 1em;
+}
+.type-10 #accordion .panel-title>a.accordion-toggle.collapsed::before,
+.type-10 #accordion a.collapsed[data-toggle="collapse"]::before {
+  content: "\e114";
+}
+.type-10 .chinhsua {
+  width: 100px;
+  height: 100px;
+  border-radius: 124%;
+}
+.type-10 .desegn {
+  color: blue;
+}
+.type-10 .desegn:hover {
+  color: black;
+}
+.type-10 .checked {
+  color: orange;
+}
+.type-10 .socola {
+  color: #806c6c;
+}
+.type-10 .desegn1 {
+  color: black;
+}
+.type-10 .desegn1:hover {
+  color: blue;
+}
+.type-10 .quaqua {
+  margin-left: 10px;
+}
+.type-10 .mybutton {
+  border: none;
+  color: #524848;
+}
+.type-10 .mybutton:hover {
+  transform: scale(1.02);
+  color: blue;
+}
