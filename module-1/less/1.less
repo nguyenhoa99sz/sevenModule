@@ -1,10 +1,22 @@
-body {
-    background: url(../images/slider1.jpg);
-}
 
 @color-white: #ffffff;
 
 .type-1 {
+
+    .top-header{
+        position: fixed;
+        min-width: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 62px;
+        background: url(../images/slider1.jpg) no-repeat;
+        background-size: cover;
+        transition: transform 300ms ;
+        &.hides {
+            transform: translateY(-100px) !important;
+          }
+    }
     .logo-menu {
         img {
             width: 40%;
@@ -25,6 +37,7 @@ body {
     }
 
     .dmenu {
+        
         .active {
             color: @color-white;
         }
@@ -38,48 +51,7 @@ body {
         color: @color-white  !important;
     }
 
-    .banner {
-        padding-top: 50px;
-        text-align: center;
-        color: @color-white;
 
-        h1 {
-            font-size: 62px;
-        }
-
-        span {
-            font-size: 20px;
-        }
-
-        .form-inline {
-            padding-top: 20px;
-            padding-bottom: 20px;
-
-            input {
-                height: 64px;
-                padding-right: 20px;
-                margin-right: 20px;
-            }
-            .dropdow-button {
-                color: gray;
-                background: @color-white;
-                width: 160px;
-                height: 64px;
-                margin-right: 20px;
-            }
-            .identity{
-                height: 64px;
-                background: #FEAC36;
-            }
-        }
-        a{
-            color: #b8d1ff;
-            text-decoration: none;
-            &:hover{
-                color: #31c095;
-            }
-        }
-    }
 
 }
 
@@ -93,7 +65,7 @@ body {
             position: absolute;
             background: #175CDB;
             z-index: 1;
-            top: 4.5em;
+            top: 4.45em;
             left: 0;
             width: 100%;
             padding-left: 20px;
