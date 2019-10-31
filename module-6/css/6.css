@@ -1,0 +1,61 @@
+.type-6 .okok {
+  text-decoration: none;
+}
+.type-6 .bentrong {
+  border: 1px solid #e2dcdc;
+  width: 100%;
+  height: 220px;
+  box-shadow: 1px 1px 5px 5px #b4a8a8;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #4040a7;
+}
+.type-6 .bentrong .btn-warning {
+  visibility: hidden;
+}
+.type-6 .hinhvuong {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.type-6 .hinhvuong button {
+  position: absolute;
+  bottom: -67px;
+  transition: all .3s;
+}
+.type-6 .bentrong:hover {
+  color: #0e0e6e;
+  box-shadow: 1px 1px 5px 5px #726a6a;
+  transform: scale(1.03);
+}
+.type-6 .bentrong:hover .btn-warning {
+  visibility: unset;
+}
+.type-6 .bentrong:hover .churieng {
+  color: blue;
+  font-size: 13px;
+}
+.type-6 .bentrong:hover .churieng1 {
+  color: blue;
+  font-size: 13px;
+}
+.type-6 .bentrong:hover .hinhvuong button {
+  bottom: -45px;
+}
+.type-6 .churieng {
+  color: black;
+  font-size: 13px;
+}
+.type-6 .churieng1 {
+  color: #4d4646;
+  font-size: 13px;
+}
+.type-6 .socola {
+  margin-top: 10px;
+}
+.type-6 .socola1 {
+  margin-top: 40px;
+}
