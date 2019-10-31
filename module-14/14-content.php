@@ -16,9 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <span>Jobzone is one of the best job portal website in this world. Now it’s avaliable
                         for Play Store & also App Store. So Download now !</span>
                 </div>
-
-                <button class="btn google bounceIn">Google play</button>
-                <button class="btn store bounceIn">App store</button>
+                <button class="google">Google play</button >
+                <button class="store">App store</button >
+             
             </div>
             <div class="col-md-6">
                 <img src="./images/app.png" alt="" class="img-responsive app">
