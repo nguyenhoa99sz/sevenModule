@@ -1,0 +1,90 @@
+.type-15 .border1 {
+  border: 1px solid #ddd6d6;
+}
+.type-15 .border2 {
+  border: 1px solid #ddd6d6;
+}
+.type-15 .row2 {
+  background-color: #f6f9fc;
+}
+.type-15 .btn-info {
+  margin-top: 10px;
+}
+.type-15 .jhjh {
+  color: #b1a2a2;
+  text-align: left;
+}
+.type-15 ol,
+.type-15 ul {
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+.type-15 .masss {
+  padding-top: 23px;
+  padding-bottom: 61px;
+}
+.type-15 .gachduoi {
+  border-bottom: 1px solid #e4d7d7;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.type-15 .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.type-15 .social-pet li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.type-15 .social-pet li a {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  line-height: 35px;
+  background-color: #3a5a95;
+  color: #fff;
+}
+.type-15 .social-pet li:nth-child(2) a {
+  background-color: #57aced;
+}
+.type-15 .social-pet li:nth-child(3) a {
+  background-color: #dd4f43;
+}
+.type-15 .social-pet li:nth-child(4) a {
+  background-color: #6b27b2;
+}
+.type-15 .social-pet li a:hover {
+  background-color: #0141a2;
+}
+.type-15 .social-pet li a:hover i {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+.type-15 .fa-home {
+  color: blue;
+  font-size: 30px;
+}
+.type-15 .fa-envelope-square {
+  color: blue;
+  font-size: 30px;
+}
+.type-15 .fa-phone {
+  color: blue;
+  font-size: 30px;
+}
+.type-15 .xoahover {
+  text-decoration: none;
+  color: #746b6b;
+}
+.type-15 .xoahover:hover {
+  color: #5539a1;
+}
