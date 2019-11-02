@@ -35,6 +35,7 @@
   top: 100px;
 }
 .hnhn {
+  font-weight: 600;
   position: absolute;
   background: #feac36;
   height: 22px;
@@ -42,14 +43,36 @@
   top: 10px;
   left: 15px;
   color: white;
+  border-radius: 3px;
+  text-align: center;
 }
 .hnhn span {
   display: block;
+}
+.vcc:hover .gachduoi {
+  border-color: red;
+  border-color: #5f3535;
+  border-color: #3b1212;
+  border-color: #320c99;
+  border-color: #aaa230;
+  border-color: #3cb81d;
+  border-color: #3a1c81;
+}
+.dsds {
+  color: #7d7dc0;
+}
+.dada {
+  color: #7d7dc0;
 }
 .gachduoi {
   margin-bottom: 10px;
   color: #776767;
   border-bottom: 2px solid whitesmoke;
+  -webkit-transition: border-color 1s ease;
+  -moz-transition: border-color 1s ease;
+  -o-transition: border-color 1s ease;
+  -ms-transition: border-color 1s ease;
+  transition: border-color 1s ease;
 }
 .dsds:hover {
   color: #3d3db4;
