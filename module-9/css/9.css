@@ -51,12 +51,7 @@
 }
 .vcc:hover .gachduoi {
   border-color: red;
-  border-color: #5f3535;
   border-color: #3b1212;
-  border-color: #320c99;
-  border-color: #aaa230;
-  border-color: #3cb81d;
-  border-color: #3a1c81;
 }
 .dsds {
   color: #7d7dc0;
@@ -68,11 +63,11 @@
   margin-bottom: 10px;
   color: #776767;
   border-bottom: 2px solid whitesmoke;
-  -webkit-transition: border-color 1s ease;
-  -moz-transition: border-color 1s ease;
-  -o-transition: border-color 1s ease;
-  -ms-transition: border-color 1s ease;
-  transition: border-color 1s ease;
+  -webkit-transition: border-color 1s ease-in;
+  -moz-transition: border-color 1s ease-in;
+  -o-transition: border-color 1s ease-in;
+  -ms-transition: border-color 1s ease-in;
+  transition: border-color 1s ease-in;
 }
 .dsds:hover {
   color: #3d3db4;
