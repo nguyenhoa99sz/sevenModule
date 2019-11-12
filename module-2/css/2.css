@@ -1,113 +1,36 @@
-body {
-  background: #f5f1f1;
+.type-2 .myimg {
+  width: 100%;
+  height: 500px;
+  background-image: cover;
+  margin-bottom: 30px;
 }
-.type-2 {
-  margin-top: 20px;
+.type-2 .adudu-fiste {
+  text-align: center;
 }
-.type-2 a {
-  text-decoration: none;
-  color: #000000;
+.type-2 .myimg:hover {
+  box-shadow: 1px 1px 5px 5px;
+  transform: scale(1.002);
 }
-.type-2 .top-title .dropdown {
-  margin-right: 10px;
-  float: right;
+.type-2 .adudu-fakebtn {
+  border: 2px solid #c5b1b1;
+  width: 179px;
+  height: 41px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  margin: 0 auto;
 }
-.type-2 .top-title .dropdown button {
-  background: #ffffff;
-  color: gray;
-  border: 1px solid gray;
+.type-2 .adudu-fakebtn:hover {
+  background: #c5b1b1;
+  border: 3px solid #948282;
+  transform: scale(1.002);
 }
-.type-2 .item-wrap {
-  margin-top: 40px;
-}
-.type-2 .item-wrap .list-job {
-  padding: 30px;
-  display: -webkit-flex;
-  align-items: center;
-  background: #ffffff;
-  border-bottom: 1px solid #dee6ed;
-}
-.type-2 .item-wrap .list-job .logo {
-  padding-right: 20px;
-  position: relative;
-  padding-left: 20px;
-}
-.type-2 .item-wrap .list-job .logo .item-heart {
-  background: #eeb96e;
-  position: absolute;
-  top: 0;
-  padding: 10px 15px;
-  margin-left: 656px;
-  color: #ffffff;
-  border-top-left-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-}
-.type-2 .item-wrap .list-job .information {
-  margin: 10px;
-}
-.type-2 .item-wrap .list-job .information .time {
-  color: #eeb96e;
-}
-.type-2 .item-wrap .list-job .information .title {
-  text-decoration: none;
-  color: #000000;
-  font-size: 24px;
-}
-.type-2 .item-wrap .list-job .information .title:hover {
-  color: #7EABFE;
-}
-.type-2 .item-wrap .list-job .information .info {
-  text-decoration: none;
-  color: #1768fe;
-}
-.type-2 .item-wrap .list-job .information span {
-  color: gray;
-  padding-right: 10px;
-}
-.type-2 .item-wrap .list-job:hover {
-  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
-  transform: scale(1.02);
-}
-.type-2 .item-wrap .list-job:hover .item-heart {
-  box-shadow: 0 6px 40px 0 rgba(167,174,189,0.4);
-  transform: scale(1.02);
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
-.type-2 .search {
-  background: #ffffff;
-  padding: 10px 20px;
-  margin-bottom: 2px;
-}
-.type-2 #accordion .panel-heading {
-  background: #1768fe;
-  padding: 10px;
-}
-.type-2 #accordion .panel-title>a {
-  display: block;
-  padding: 0.4em 0.6em;
-  outline: none;
-  font-weight: bold;
+.type-2 .adudu-a {
   text-decoration: none;
 }
-.type-2 #accordion .panel-body {
-  color: gray;
+.type-2 .adudu-h31 {
+  margin-bottom: 40px;
 }
-.type-2 #accordion .panel-title>a.accordion-toggle::before,
-.type-2 #accordion a[data-toggle="collapse"]::before {
-  content: "\e113";
-  float: right;
-  font-family: 'Glyphicons Halflings';
-  margin-right: 1em;
-}
-.type-2 #accordion .panel-title>a.accordion-toggle.collapsed::before,
-.type-2 #accordion a.collapsed[data-toggle="collapse"]::before {
-  content: "\e114";
+.type-2 .adudu-p1 {
+  margin-bottom: 40px;
 }

@@ -1,147 +1,39 @@
-body {
-    background: rgb(245, 241, 241);
-}
 
 .type-2 {
-    @color-gray: gray;
-
-    a {
+    .myimg{
+        width: 100%;
+        height: 500px;
+        background-image: cover;
+        margin-bottom: 30px;
+    }
+    .adudu-fiste{
+        text-align: center;
+    }
+    .myimg:hover{
+        box-shadow: 1px 1px 5px 5px;
+        transform: scale(1.002);
+    }
+    .adudu-fakebtn{
+        border: 2px solid #c5b1b1;
+        width: 179px;
+        height: 41px;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        margin: 0 auto;
+    }
+    .adudu-fakebtn:hover{
+        background: rgb(197, 177, 177);
+        border:3px solid rgb(148, 130, 130);
+        transform: scale(1.002);
+    }
+    .adudu-a{
         text-decoration: none;
-        color: #000000;
     }
-
-    margin-top: 20px;
-
-    .top-title {
-        .dropdown {
-            margin-right: 10px;
-
-            button {
-                background: #ffffff;
-                color: @color-gray;
-                border: 1px solid @color-gray;
-            }
-
-            float: right;
-        }
-
+    .adudu-h31{
+        margin-bottom: 40px;
     }
-
-    .item-wrap {
-        margin-top: 40px;
-
-        .list-job {
-            padding: 30px;
-            display: -webkit-flex;
-            align-items: center;
-            background: #ffffff;
-            border-bottom: 1px solid #dee6ed;
-
-            .logo {
-                padding-right: 20px;
-                position: relative;
-                padding-left: 20px;
-
-                .item-heart {
-                    background: rgb(238, 185, 110);
-                    position: absolute;
-                    top: 0;
-                    padding: 10px 15px;
-                    margin-left: 656px;
-                    color: #ffffff;
-                    border-top-left-radius: 0.5em;
-                    border-bottom-left-radius: 0.5em;
-                    -webkit-transform: scale(0);
-                    -ms-transform: scale(0);
-                    -o-transform: scale(0);
-                    transform: scale(0);
-                }
-            }
-
-
-            .information {
-                margin: 10px;
-
-                .time {
-                    color: rgb(238, 185, 110);
-                }
-
-                .title {
-                    text-decoration: none;
-                    color: #000000;
-                    font-size: 24px;
-
-                    &:hover {
-                        color: #7EABFE;
-                    }
-                }
-
-                .info {
-                    text-decoration: none;
-                    color: #1768fe;
-                }
-
-                span {
-                    color: @color-gray;
-                    padding-right: 10px;
-                }
-            }
-
-            &:hover {
-                box-shadow: 0 6px 40px 0 rgba(167, 174, 189, 0.4);
-                transform: scale(1.02);
-            }
-
-            &:hover .item-heart {
-                box-shadow: 0 6px 40px 0 rgba(167, 174, 189, 0.4);
-                transform: scale(1.02);
-
-                opacity: 1;
-                -webkit-transform: scale(1);
-                -ms-transform: scale(1);
-                -o-transform: scale(1);
-                transform: scale(1);
-            }
-        }
-
-    }
-
-    .search {
-        background: #ffffff;
-        padding: 10px 20px;
-        margin-bottom: 2px;
-    }
-
-    #accordion {
-        .panel-heading {
-            background: #1768fe;
-            padding: 10px;
-        }
-
-        .panel-title>a {
-            display: block;
-            padding: 0.4em 0.6em;
-            outline: none;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .panel-body {
-            color: @color-gray;
-        }
-
-    }
-
-    #accordion .panel-title>a.accordion-toggle::before,
-    #accordion a[data-toggle="collapse"]::before {
-        content: "\e113";
-        float: right;
-        font-family: 'Glyphicons Halflings';
-        margin-right: 1em;
-    }
-
-    #accordion .panel-title>a.accordion-toggle.collapsed::before,
-    #accordion a.collapsed[data-toggle="collapse"]::before {
-        content: "\e114";
+    .adudu-p1{
+        margin-bottom: 40px;
     }
 }
