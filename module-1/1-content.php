@@ -21,42 +21,224 @@ $url_path = str_replace('\\', '/', $url_path);
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand logo-menu" href="#"><img src="./images/logo_white.png" alt=""></a>
                 </div>
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div id="collapsibleNavId" class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav navbar-right ">
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home <b
-                                    ></b></a>
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu sm-menu">
+                                <li><a href="#">Action</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Demos <b></b></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Employers <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu sm-menu">
+                                <li><a href="#">Action</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Featured <b></b></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Blog <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu sm-menu">
+                                <li><a href="#">Contact</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Supports <b></b></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Pages <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu sm-menu">
+                                <li><a href="#">Blog</a></li>
+                            </ul>
                         </li>
-                        <button class="btn-pur"><i class="fa fa-archive"></i> PURCHASE THEME $59</button>
+                        <li><a href="#" class="login">Login</a></li>
+                        <li><a href="#" class="register">Register</a></li>
                     </ul>
-
                 </div><!-- /.navbar-collapse -->
             </nav>
             <!--end menu-->
-
         </div>
 
     </header>
-    <div class="container">
-        <div class="adudu">
-            <h1 class="color1">A Prinium Mangeto Shopping Theme For Your Bunisess</h1>
-            <p class="color2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quibusdam, placeat
-                voluptas obcaecati alias
-                deleniti aut iusto rerum laborum recusandae? Impedit explicabo id ratione? Provident itaque velit
-                corporis.
-                Totam, soluta.</p>
-                <button class="btn-btn">Discover Theme Demo</button>
-        </div>
-    </div>
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptateLorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptateLorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptateLorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        m ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut
+        quaerat voluptate
+        atque explicabo. Impedit ipsum repellat quisquam, commodi numquam corrupti, minus molestias iusto quae
+        itaque totam veritatis!Lore
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis. Magnam ut quaerat voluptate
+    </span>
+
+
+
 </div>

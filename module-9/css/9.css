@@ -35,7 +35,6 @@
   top: 100px;
 }
 .hnhn {
-  font-weight: 600;
   position: absolute;
   background: #feac36;
   height: 22px;
@@ -43,31 +42,14 @@
   top: 10px;
   left: 15px;
   color: white;
-  border-radius: 3px;
-  text-align: center;
 }
 .hnhn span {
   display: block;
-}
-.vcc:hover .gachduoi {
-  border-color: red;
-  border-color: #3b1212;
-}
-.dsds {
-  color: #7d7dc0;
-}
-.dada {
-  color: #7d7dc0;
 }
 .gachduoi {
   margin-bottom: 10px;
   color: #776767;
   border-bottom: 2px solid whitesmoke;
-  -webkit-transition: border-color 1s ease-in;
-  -moz-transition: border-color 1s ease-in;
-  -o-transition: border-color 1s ease-in;
-  -ms-transition: border-color 1s ease-in;
-  transition: border-color 1s ease-in;
 }
 .dsds:hover {
   color: #3d3db4;

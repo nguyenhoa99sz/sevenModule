@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <p class="ioio"><a>All News <i class="fa fa-arrow-right"></i></a></p>
     <div class="row">
     
-    <div class="col-md-4 vcc">
+    <div class="col-md-4">
     <div class="blog">
         <div class="nnn" style="position:relative">
             <img src="images/menu/giay3.jpg" width="100%" height="250px">
@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     </div>
     </div>
-    <div class="col-md-4 vcc">
+    <div class="col-md-4">
     <div class="blog">
         <div class="nnn" style="position:relative">
             <img src="images/menu/giay2.jpg" width="100%" height="250px">
@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     </div>
     </div>
-    <div class="col-md-4 vcc">
+    <div class="col-md-4">
     <div class="blog">
         <div class="nnn" style="position:relative">
             <img src="images/menu/giay1.jpg" width="100%" height="250px">
