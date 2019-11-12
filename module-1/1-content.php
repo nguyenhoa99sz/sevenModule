@@ -27,10 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <ul class="nav navbar-nav navbar-right ">
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home <b
-                                    class="caret"></b></a>
-                            <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                            </ul>
+                                    ></b></a>
                         </li>
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Demos <b></b></a>
@@ -52,9 +49,14 @@ $url_path = str_replace('\\', '/', $url_path);
 
     </header>
     <div class="container">
-        <h1 class="color1">A Prinium Mangeto Shopping Theme For Your Bunisess</h1>
-        <p class="color2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quibusdam, placeat voluptas obcaecati alias
-            deleniti aut iusto rerum laborum recusandae? Impedit explicabo id ratione? Provident itaque velit corporis.
-            Totam, soluta.</p>
+        <div class="adudu">
+            <h1 class="color1">A Prinium Mangeto Shopping Theme For Your Bunisess</h1>
+            <p class="color2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quibusdam, placeat
+                voluptas obcaecati alias
+                deleniti aut iusto rerum laborum recusandae? Impedit explicabo id ratione? Provident itaque velit
+                corporis.
+                Totam, soluta.</p>
+                <button class="btn-btn">Discover Theme Demo</button>
+        </div>
     </div>
 </div>

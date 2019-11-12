@@ -11,8 +11,24 @@
   width: 250px;
   height: 43px;
 }
+.type-1 .btn-btn {
+  color: white;
+  background-color: #0163d2;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 52px;
+  margin-top: 75px;
+  margin-bottom: 81px;
+}
+.type-1 .adudu {
+  text-align: center;
+}
 .type-1 .color1 {
   color: white;
+}
+.type-1 .color2 {
+  color: #776d6d;
 }
 .type-1 .top-header {
   min-width: auto;
