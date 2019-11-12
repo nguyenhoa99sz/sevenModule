@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('.navbar-default .dmenu').hover(function() {
-        $(this).find('.sm-menu').first().stop(true, true).delay(200).slideDown(250);
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(250);
     }, function() {
-        $(this).find('.sm-menu').first().stop(true, true).delay(200).slideUp(200);
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(200);
     });
 });
 var lastScrollTop = 0;
